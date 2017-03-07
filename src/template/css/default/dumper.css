@@ -1,0 +1,61 @@
+.dumper{
+	border:1px solid black;
+	margin:5px;
+	padding:2px;
+	background-color:white;
+}
+.dumper div.resume.complex > div{
+	cursor: pointer;
+}
+.dumper div.resume{
+	background-color:#98d9f5;
+}
+.dumper > div:nth-child(2){
+	background-color:#fff; 
+}
+
+.dumper div.resume > div:first-child{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.dumper div.resume > div:first-child:hover{
+	white-space: normal;
+}
+
+.dumper span.key{
+	color:#842dec;
+	font-weight:700;
+}
+
+.dumper em,
+.dumper samp{
+	line-height: 20px;
+}
+.dumper samp{
+	font-weight: 600;
+}
+
+.dumper ul{
+	padding:2px;
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	background-color:#59b1e3;
+	background: repeating-linear-gradient(
+		-45deg,
+		#98d9f5,
+		#98d9f5 2px,
+		#448ba9 2px,
+		#448ba9 3px
+	);
+	display:none;
+}
+.dumper ul.expand{
+	display:block;
+}
+.dumper li{
+	margin-left:20px;
+	border-top:1px solid white;
+	background-color:#98d9f5;
+}
