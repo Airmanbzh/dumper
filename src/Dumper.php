@@ -92,14 +92,14 @@ class Dumper
 
 	public static function getCss()
 	{
-		$cssPath = self::getCssPath() ?: __DIR__. './template/css/';
+		$cssPath = self::getCssPath() ?: __DIR__. '/template/css/';
 		$cssTemplate = self::getCssTemplate() ?: 'default';
 		return file_get_contents($cssPath . $cssTemplate . '/dumper.css');
 	}
 
 	public static function getJs()
 	{
-		$jsPath = self::getJsPath() ?: __DIR__. './template/js/';
+		$jsPath = self::getJsPath() ?: __DIR__. '/template/js/';
 		$jsTemplate = self::getJsTemplate() ?: 'default';
 		return file_get_contents($jsPath . $jsTemplate . '/dumper.js');
 	}
